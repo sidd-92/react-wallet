@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-dankort {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -0 -0;
+}
+
+.bg-diners {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -64px -0;
+}
+
+.bg-discover {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -0 -64px;
+}
+
+.bg-electron {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -64px -64px;
+}
+
+.bg-jcb {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -128px -0;
+}
+
+.bg-maestro {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -128px -64px;
+}
+
+.bg-mastercard {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -0 -128px;
+}
+
+.bg-unionpay {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -64px -128px;
+}
+
+.bg-visa {
+	width: 64px;
+	height: 64px;
+	background: url("/public/card_sprites.png") -128px -128px;
+}
